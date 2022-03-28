@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+                
+    <div class="flex justify-between sm:justify-around relative bg-white">
+        <div class="hover:cursor-pointer">
+            <a href="/index.html"><img src="/images/logo.jpg" class="w-20 rounded-full m-5" alt=""></a>
+        </div>
+        <ul class=" hidden sm:flex sm:gap-x-5 sm:items-center sm:text-xl z-50">
+            <a href="/index.html"><li class="thover:text-yellow-700 hover:cursor-pointer">Home</li></a>
+            <a href="/service.html"><li class="hover:text-yellow-700 hover:cursor-pointer">Service</li></a>
+            <a href="/resources.html"><li class="hover:text-yellow-700 hover:cursor-pointer">Resources</li></a>
+            <a href="/staff.html"><li class="hover:text-yellow-700 hover:cursor-pointer">Staff&Board</li></a>
+            <a href="/about.html"><li class="hover:text-yellow-700 hover:cursor-pointer">About</li></a>
+            <a href="/contact.html"><li class="hover:text-yellow-700 hover:cursor-pointer">Contact</li></a>
+        </ul>
+        <svg id="bars" class="m-5 hover:cursor-pointer w-6 sm:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+    </div>
+    <ul id="sideBar" class="bg-white sm:hidden p-5 text-2xl leading-10">
+        <li class="hover:text-yellow-700 hover:cursor-pointer">Home</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">Service</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">Resources</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">News/Photos</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">About</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">Contact</li>
+    </ul>
+    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gray-800 text-white h-40 flex items-center justify-center">Service</h1>
+    <div>
+        <div class="service p-5 flex justify-center gap-y-5 gap-x-5 min-h-screen  bg-gradient-to-r from-gray-800 to-gray-700 flex-wrap ml-auto mr-auto pb-10">
+            <div class="relative shadow-2xl h-full rounded-sm hover:scale-90">
+                <a href="/SocialService/socialservice.html" target="_blank"><img class="rounded-sm w-full" src="/images/socialservice.jpg" alt=""></a>
+                <div class="absolute top-0 left-20 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-12 rounded-b-lg">Social Service</h1>
+                </div>
+                <p class="w-96 pt-5 p-3 text-white truncate">A primary goal of the KSN is to provide social services to meet the needs of Karen and Burmese refugees. 
+                    The Karen Society of Nebraska provided direct assistance and became a bridge reference refugees to mainstream services.</p>
+            </div>
+            <div class="relative shadow-2xl h-full rounded-sm hover:scale-90">
+                <img class="rounded-sm w-full h-96" src="/images/cultural.jpg" alt="">
+                <div class="absolute top-0 left-20 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-20 rounded-b-lg">cultural</h1>
+                </div>
+                <p class="w-96 pt-5 p-3 text-white truncate">A primary goal of the KSN is to provide social services to meet the needs of Karen and Burmese refugees. 
+                    The Karen Society of Nebraska provided direct assistance and became a bridge reference refugees to mainstream services.</p>
+            </div>
+            <div class="relative shadow-2xl h-full rounded-sm hover:scale-90">
+                <img class="rounded-sm w-full h-96" src="/images/youth.jpg" alt="">
+                <div class="absolute top-0 left-20 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-20 rounded-b-lg">Youth</h1>
+                </div>
+                <p class="w-96 pt-5 p-3 text-white truncate">A primary goal of the KSN is to provide social services to meet the needs of Karen and Burmese refugees. 
+                    The Karen Society of Nebraska provided direct assistance and became a bridge reference refugees to mainstream services.</p>
+            </div>
+            <div class="relative shadow-2xl h-full rounded-sm hover:scale-90">
+                <img class="rounded-sm w-96 h-96" src="/images/women.jpg" alt="">
+                <div class="absolute top-0 left-20 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-10 rounded-b-lg">Women Committee</h1>
+                </div>
+                <p class="w-96 pt-5 p-3 text-white truncate">A primary goal of the KSN is to provide social services to meet the needs of Karen and Burmese refugees. 
+                    The Karen Society of Nebraska provided direct assistance and became a bridge reference refugees to mainstream services.</p>
+            </div>
+            <div class="relative shadow-2xl h-full rounded-sm hover:scale-90">
+                <img class="rounded-sm w-full h-96" src="/images/education.jpg" alt="">
+                <div class="absolute top-0 left-20 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-10 rounded-b-lg">Education Committee</h1>
+                </div>
+                <p class="w-96 pt-5 p-3 text-white truncate">A primary goal of the KSN is to provide social services to meet the needs of Karen and Burmese refugees. 
+                    The Karen Society of Nebraska provided direct assistance and became a bridge reference refugees to mainstream services.</p>
+            </div>
+            <div class="relative shadow-2xl h-full rounded-sm hover:scale-90">
+                <img class="rounded-sm w-96 h-96" src="/images/news.jpg" alt="">
+                <div class="absolute top-0 left-10 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-20 rounded-b-lg">News Commitee</h1>
+                </div>
+                <p class="w-96 pt-5 p-3 text-white truncate">A primary goal of the KSN is to provide social services to meet the needs of Karen and Burmese refugees. 
+                    The Karen Society of Nebraska provided direct assistance and became a bridge reference refugees to mainstream services.</p>
+            </div>
+           
+           
+    </div>
+
+
+    <div class="p-5">
+        <img class="w-10 ml-auto mr-auto" src="/images/logo.jpg" alt="">
+        <h1 class="text-center text-2xl pt-5">Location</h1>
+        <div class="sm:flex h-full py-5">
+            <h1 class="text-yellow-700 font-bold">Omaha Office: </h1><br>
+            <p>
+                816 N 44th St, #3
+                Omaha, NE, 68131
+                Phone: 402 505 3482
+                Fax: 402 505 4674
+                Email: info@karenksn.org
+            </p> 
+            <h1 class="text-yellow-700 font-bold">Lincoln Office: </h1><br>
+            <p>
+                1021 D Street
+                LINCOLN, NE, 68502
+                Phone: (402) 304 3157
+                Email: info@karenksn.org
+            </p> 
+            <h1 class="text-yellow-700 font-bold">Madison Office: </h1><br>
+            <p>
+                210 W 3rd St
+                Madison, NE
+                Phone: (531) 414-7000
+                Email: info@karenksn.org
+            </p> 
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>

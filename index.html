@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+            
+    <div class="flex justify-between sm:justify-around relative bg-white">
+        <div class="hover:cursor-pointer">
+            <a href="/index.html"><img src="/images/logo.jpg" class="w-20 rounded-full m-5" alt=""></a>
+        </div>
+        <ul class=" hidden sm:flex sm:gap-x-5 sm:items-center sm:text-xl z-50">
+            <a href="/index.html"><li class="thover:text-yellow-700 hover:cursor-pointer">Home</li></a>
+            <a href="/service.html"><li class="hover:text-yellow-700 hover:cursor-pointer">Service</li></a>
+            <a href="/resources.html"><li class="hover:text-yellow-700 hover:cursor-pointer">Resources</li></a>
+            <a href="/staff.html"><li class="hover:text-yellow-700 hover:cursor-pointer">Staff&Board</li></a>
+            <a href="/about.html"><li class="hover:text-yellow-700 hover:cursor-pointer">About</li></a>
+            <a href="/contact.html"><li class="hover:text-yellow-700 hover:cursor-pointer">Contact</li></a>
+        </ul>
+        <svg id="bars" class="m-5 hover:cursor-pointer w-6 sm:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+    </div>
+    <ul id="sideBar" class="bg-white sm:hidden p-5 text-2xl leading-10">
+        <li class="hover:text-yellow-700 hover:cursor-pointer">Home</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">Service</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">Resources</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">News/Photos</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">About</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer">Contact</li>
+    </ul>
+    <div class="middle flex items-center justify-center">
+        <div class="text-center p-5">
+            <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl pb-5 text-white">Welcome to <span class="text-yellow-600"><br> Karen society of Nebraska</span></h1>
+            <p class="text-xl sm:text-2xl md:text-3xl text-white">We help karen people to expand their knownledge in <span class="type text-yellow-600"></span></p>
+            <a href="/about.html"><button class="text-white font-bold sm:bg-transparent bg-yellow-700 hover:bg-yellow-800 sm:border-2 sm:border-yellow-700 sm:hover:border-0 sm:hover:bg-yellow-700 px-10 py-3 rounded-full mt-5">LEARN MORE</button></a>
+        </div>
+    </div>
+    <!-- <div class="hidden bg-gradient-to-r from-black to-white sm:flex  sm:pt-0 sm:text-white min-h-screen relative"> -->
+            <!-- <div class="absolute bottom-0 right-0">
+                <div class="mySlides relative">
+                    <img class=" w-screen" src="/images/p1-removebg-preview.png">
+                    <div class="absolute -top-40 left-10"> -->
+                        <!-- <h1 class="font-bold text-5xl pb-5">Welcome to <span class="text-yellow-700"><br> Karen society of Nebraska</span></h1>
+                        <p class="text-2xl">We help karen people to expand their knownledge in employment, training, and many others</p>
+                        <a href="/about.html"><button class="text-white font-bold sm:bg-transparent bg-yellow-700 hover:bg-yellow-800 sm:border-2 sm:border-yellow-700 sm:hover:border-0 sm:hover:bg-yellow-700 px-10 py-3 rounded-full mt-5">LEARN MORE</button></a> -->
+                    <!-- </div>
+                </div> -->
+                <!-- <img class="mySlides w-screen" src="/images/p2.jpg" >
+                <img class="mySlides w-screen" src="/images/p3.jpg" >
+                <img class="mySlides w-screen" src="/images/p4.jpg">
+                <img class="mySlides w-screen" src="/images/p5.jpg"> -->
+            <!-- </div> -->
+    <!-- </div> -->
+    <div  class="bg-gray-700 min-h-screen p-5 flex sm:justify-around gap-x-10">
+        <div class="welcome_paragrah"> 
+            <h1 class="font-bold text-white pb-4 text-2xl">Our <span class="text-yellow-700">mission</span></h1>
+            <p class="text-gray-300 text-lg">Thank you for your interest in our organization. 
+               The Karen Society of Nebraska's mission is to help refugees and immigrants from Burma build and sustain a high quality of life and achieve self-sufficiency in Nebraska.
+            <p class="text-gray-300 text-lg"> <br>
+               We have office locations in Omaha and Lincoln, Madison, where refugees and immigrants from Burma (Myanmar) can receive help with reading mail, filling out application forms, setting appointments, finding employment, immigration services, and basic computer training. 
+            </p> <br>
+           <p class="text-gray-300 text-lg">
+               We hope you will use this website to learn more about Karen people and other ethnic minorities of Burma, our rich cultural heritage, the services we provide in Nebraska, local resources, and ways to become involved. Please feel free to contact us info@karenksn.org.</p>
+           </p><br>
+        </div>
+        <div class="hidden sm:block sponsors text-gray-300 p-5">
+            <h1 class="text-white font-bold text-2xl pb-4">Our Sponsors</h1>
+            <ul class="list-disc">
+                <li>Community Home Healthcare</li> 
+                <li>Karen Grocery Store</li> 
+                <li>Ler Mu Grocery Store</li> 
+                <li>K Nart Market</li> 
+                <li>Omaha Knyawhtoo Baptist Church</li> 
+                <li>America Karen First Baptist Church</li> 
+                <li>TeeMoBwa Karen Baptist Church</li> 
+                <li>Tee Ger Nee Karen Baptist Church</li> 
+                <li>Calvary Baptist Church</li> 
+                <li>Myanmar Wesleyan</li> 
+                <li>Karen Christian Revival Church</li> 
+                <li>Karen SDA</li> 
+                <a href="https://www.facebook.com/KarenSocietyofNebraska/photos/pcb.3086375238285127/3086374204951897"><li class="text-blue-700 underline"><img class="w-40" src="/images/p1 (1).png" alt=""></li></a>
+            </ul>
+            <div class="flex gap-x-5">
+                <div>
+                    <a href="https://www.theinsurancecenterinc.com/" target="_blank"><img class="w-40 h-40 rounded-full object-contain" src="/images/The-Insurance-Center-Inc.png" alt=""></a>
+                    <a href="https://osuhahomehealthcare.com/" target="_blank"><img class="w-40 h-40  rounded-full object-contain" src="/images/Osuha-Home-Healthcare.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://www.salweenthai.com/menu" target="_blank"><img class="w-40 h-40  rounded-full object-contain" src="/images/SalweenThai.png" alt=""></a>
+                    <a href="https://www.tysonfoods.com/" target="_blank"><img class="w-40 h-40 rounded-full object-contain" src="/images/TysonFoodsLogoWhite_1.png" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://woodscharitable.org/" target="_blank"><img class="w-40 h-40  rounded-full object-contain" src="/images/charitablewood.jfif" alt=""></a>
+                    <a href="https://www.artscouncil.nebraska.gov//" target="_blank"><img class="w-40 h-40  rounded-full object-contain" src="/images/nebraskaartcouncil.jfif" alt=""></a>
+                </div>
+                <div>
+                    <a href="https://www.cfpin.org/" target="_blank"><img class="w-40 h-40  rounded-full object-contain" src="/images/centerforpeople.jfif" alt=""></a>
+                    <a href="https://landmarkomaha.com/" target="_blank"><img class="w-40 h-40  rounded-full object-contain" src="/images/landmark.jfif" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-5">
+        <img class="w-10 ml-auto mr-auto" src="/images/logo.jpg" alt="">
+        <h1 class="text-center text-2xl pt-5">Location</h1>
+        <div class="sm:flex h-full py-5">
+            <h1 class="text-yellow-700 font-bold">Omaha Office: </h1><br>
+            <p>
+                816 N 44th St, #3
+                Omaha, NE, 68131
+                Phone: 402 505 3482
+                Fax: 402 505 4674
+                Email: info@karenksn.org
+            </p> 
+            <h1 class="text-yellow-700 font-bold">Lincoln Office: </h1><br>
+            <p>
+                1021 D Street
+                LINCOLN, NE, 68502
+                Phone: (402) 304 3157
+                Email: info@karenksn.org
+            </p> 
+            <h1 class="text-yellow-700 font-bold">Madison Office: </h1><br>
+            <p>
+                210 W 3rd St
+                Madison, NE
+                Phone: (531) 414-7000
+                Email: info@karenksn.org
+            </p> 
+        </div>
+    </div>
+    <script src="typed.js"></script>
+    <script>
+        
+        var typed = new Typed('.type', {
+          strings: [
+           'employment',
+           'training',
+           'and many others'
+        ],
+          typeSpeed: 80,
+          backSpeed: 60,
+          loop: true
+        });
+
+    </script>
+    <script src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+#sidebar4 {
+  display: grid;
+  grid-template-columns: minmax(2rem, 70rem);
+  justify-content: center;
+}
+
+.middle {
+  width: 100%;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(7, 7, 7, 0.8)),
+    url(/images/p1-removebg-preview.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+.email,
+.message {
+  /* width: 775px; */
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+.first,
+.last {
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+@media screen and (min-width: 400px) {
+  /* #sidebar4{
+        width: 600px;
+    } */
+  .email,
+  .message {
+    width: 305px;
+  }
+  .first,
+  .last {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .welcome_paragrah {
+    width: 500px;
+  }
+  /* #sidebar4{
+        width: 600px;
+    } */
+  .email,
+  .message {
+    width: 500px;
+  }
+  .first,
+  .last {
+    width: 248px;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* #sidebar4{
+        width: 800px;
+    } */
+  .email,
+  .message {
+    width: 700px;
+  }
+  .first,
+  .last {
+    width: 348px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* #sidebar4{
+        width: 1200px;
+    } */
+  .email,
+  .message {
+    width: 775px;
+  }
+  .first,
+  .last {
+    width: 385px;
+  }
+}
