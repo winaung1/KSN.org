@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-<body>      
+<body>
+                
     <div class="flex justify-between sm:justify-around relative bg-white">
         <div class="hover:cursor-pointer">
             <a href="/index.html"><img src="/images/logo.jpg" class="w-20 rounded-full m-5" alt=""></a>
@@ -26,14 +27,124 @@
         <svg id="bars" class="m-5 hover:cursor-pointer w-6 sm:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
     </div>
     <ul id="sideBar" class="bg-white sm:hidden p-5 text-2xl leading-10">
-        <li class="hover:text-yellow-700 hover:cursor-pointer">Home</li>
-        <li class="hover:text-yellow-700 hover:cursor-pointer">Service</li>
-        <li class="hover:text-yellow-700 hover:cursor-pointer">Resources</li>
-        <li class="hover:text-yellow-700 hover:cursor-pointer">News/Photos</li>
-        <li class="hover:text-yellow-700 hover:cursor-pointer">About</li>
-        <li class="hover:text-yellow-700 hover:cursor-pointer">Contact</li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer"><a href="/index.html">Home</a></li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer"><a href="/service.html">Service</a></li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer"><a href="/resources.html">Resources</a></li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer"><a href="/staff.html">Staff&Board</a></li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer"><a href="/about.html">About</a></li>
+        <li class="hover:text-yellow-700 hover:cursor-pointer"><a href="/contact.html">Contact</a></li>
     </ul>
-    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl bg-gray-800 text-white h-40 flex items-center justify-center">Resources</h1>
+    <h1 class="text-xl sm:text-2xl md:text-3xl bg-gray-800 text-white h-40 flex items-center justify-center">Resources</h1>
+    <div>
+        <div class="service p-10 flex justify-center gap-y-20 gap-x-5 min-h-screen  bg-gradient-to-r from-gray-800 to-gray-700 flex-wrap ml-auto mr-auto pb-20">
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/coronavirusInfo.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/Translation.png" alt="">
+                </a>
+                <div class="absolute top-0 left-8 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-10 rounded-b-lg">Coronavirus information</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    The Karen Society of Nebraska creates videos and translation Covid-19 information into Karen to fulfill the community's information need. 
+                    An agency and employer ready to print and share their Karen client and employee as need. 
+                </p>
+            </div>
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/MentalHealth.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/mentalhealth.png" alt="">
+                </a>
+                <div class="absolute top-0 left-8 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-20 rounded-b-lg">Mantel Health</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    The outbreak of coronavirus disease 2019 (COVID-19) may be stressful for people.
+                     Fear and anxiety about a disease can be overwhelming and cause strong emotions in adults and children. 
+                     Stress during an infectious disease outbreak can include:e are happy to perform or present information at your event. 
+                     If you are interested in learning more about refugees from Burma, please contact us.
+                </p>
+            </div>
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/MedicalTerms.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/medicalterms.png" alt="">
+                </a>
+                <div class="absolute top-0 left-8 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-20 rounded-b-lg">Medical Terms</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    One of the questions the doctor will ask us is, How do you feel? Let learn a few common medical terms together.
+                </p>
+            </div>
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/DoctorPharmacy.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/pharmacy.png" alt="">       
+                </a>
+                <div class="absolute top-0 left-12 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-10 rounded-b-lg">Doctor & Pharmacy</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    Asking questions and providing information to your doctor and other care providers can improve your care.
+                </p>
+            </div>
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/Fish.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/aboutfish.png" alt=""> 
+                </a>
+                <div class="absolute top-0 left-20 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-10 rounded-b-lg">About Fish</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    This advice can help women who are pregnant or may become pregnant - as well as breastfeeding mothers and parents and caregivers
+                </p>
+            </div>
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/Handouts.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/resources.png" alt="">
+                </a>
+                <div class="absolute top-0 left-10 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-20 rounded-b-lg">Handouts</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    MyLNK app is a free app, works with Apple and Android phones, works offline.
+                </p>
+            </div>
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/Carseat.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/carseat.png" alt="">
+                </a>
+                <div class="absolute top-0 left-10 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-20 rounded-b-lg">Car Seat</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    MyLNK app is a free app, works with Apple and Android phones, works offline.
+                </p>
+            </div>
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/Immigration.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/immigration.png" alt="">
+                </a>
+                <div class="absolute top-0 left-10 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-20 rounded-b-lg">Immigration</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    MyLNK app is a free app, works with Apple and Android phones, works offline.
+                </p>
+            </div>
+            <div class="relative shadow-2xl w-80 h-80 rounded-sm hover:scale-90">
+                <a href="/Resources/GeneralResources.html">
+                    <img class="rounded-sm w-80 h-80 object-contain" src="/images/Birth Injury Justic Center.jpg" alt="">
+                </a>
+                <div class="absolute top-0 left-12 rounded-sm shadow-2xl border-white">
+                    <h1 class="bg-gray-800 text-yellow-700 font-bold py-1 px-10 rounded-b-lg">General Resources</h1>
+                </div>
+                <p class="w-80 pt-5 p-3 text-white truncate">
+                    MyLNK app is a free app, works with Apple and Android phones, works offline.
+                </p>
+            </div>
+           
+           
+    </div>
+
+
     <div class="p-5">
         <img class="w-10 ml-auto mr-auto" src="/images/logo.jpg" alt="">
         <h1 class="text-center text-2xl pt-5">Location</h1>
@@ -65,4 +176,3 @@
     <script src="/main.js"></script>
 </body>
 </html>
-
